@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+
+.header {
+	position:absolute;
+	top:0px;
+	width:100%;
+}
+.header .header_tool_menu_bar {
+	position: fixed;
+	background-color: white;
+	height:100px;
+	width:100%;
+	z-index: 100;
+}
+.header_tool_menu_bar .header_tool_menu {
+	position: absolute;
+	top: 50%;
+	left: 60px;
+	display: block;
+	width: 36px;
+	height: 4%;
+	font-size: 0px;
+	background-color: black;
+	z-index: 100;
+}
+.header_tool_menu_bar:before {
+	
+    position: absolute;
+	top:42%;
+	left: 60px; 
+	/* margin:0 auto; */
+	width: 36px;
+	height: 4%;
+	display: block;
+	content: "";
+	background-color: black;
+	z-index: 100;
+}
+
+.header_tool_menu_bar:after {
+	
+    position: absolute;
+	top:58%;
+	left: 60px; 
+	/* margin:0 auto; */
+	width: 36px;
+	height: 4%;
+	display: block;
+	content: "";
+	background-color: black;
+	z-index: 100;
+}
+
+img.simple_shop_logo {
+	position: fixed;
+	width: 150px;
+	height: 100px;
+	top:0px;
+	left:45%;
+	z-index: 100;
+}
+
+.header .title_login_regi_block {
+	position: absolute;
+	left:90%;
+	top:20%;
+}
+.title_block {	
+	font-size: 20;
+	color:#717171;
+}
+.login {
+	font-weight:bold;
+	font-size:20;
+	color: #030303;
+}
+
+.register {
+	font-weight:bold;
+	font-size:20;
+	color: #030303;
+}
+
+.header_background {
+	position:absolute;
+	top:100px;
+	height:300px;
+	width:100%;
+	z-index: -1;
+}
+
+/* .registerBtn {
+	position: absolute;
+    left:1180px;
+	top:30px;
+}
+.loginBtn {
+	position: absolute;
+	left:1250px;
+	top:30px;
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	color: white;
+} */
+
+.header_introduces {
+	position: absolute;
+	left:43%;
+	top: 170px;
+}
+.header_search {
+	position: absolute;
+	top:280px;
+	left: 38%;
+	width: 380px;
+	height: 30px;
+	background-color: transparent;
+	border-color: #C9C9C9;
+	border-style: solid;
+	border-width: 1px;
+	color: grey;
+}
+body {
+	background-color: #F2F2F2;
+}
+
+.itemBlock {
+	position:absolute;
+	top:410px;
+	left:20px;
+	width: 320px;
+	height: 320px;
+	border-color: #C9C9C9;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;	
+}
+
+.like_btn {
+	position:absolute;
+	width:55px;
+	height: 60px;
+	left:240px;
+}
+.item_img {
+	position:absolute;
+	width:250px;
+	height: 250px;
+	left:35px;
+	top:35px;
+}
+.item_name {
+	position: absolute;
+	font-size: 20;
+	top:12px;
+	left:10px;
+}
+.item_price {
+	position: absolute;
+	font-size: 20;
+	top:275px;
+	left:120px;
+	color: #F05978;
+}
+.buy_btn {
+	position: absolute;
+	width:40px;
+	height:36px;
+	font-size: 20;
+	top:270px;
+	left:10px;
+}
+#itemBlock_2 {
+	position:absolute;
+	top:410px;
+	left:360px;
+	width: 320px;
+	height: 320px;
+	border-color: #C9C9C9;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;	
+}
