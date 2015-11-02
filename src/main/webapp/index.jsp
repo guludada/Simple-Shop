@@ -27,7 +27,7 @@
 			<div class="header_introduces">
 				<p>
 					<h1>Simple Shop</h1>
-					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净 简洁 易用 方便 快捷
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp干净 简洁 易用 方便 快捷 专业
 				</p>
 			</div>
 			<input type="text" class="header_search" placeholder="search">
